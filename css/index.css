@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Poppins;
+    user-select: none;
+    background-image: url("../img/bigbigpddingsda.png");
+    background-size: 100% 100%;
+}
+
+h1, .jaman {
+    display: inline;
+    color: white;
+    opacity: 0.8;
+    font-weight: 300;
+    margin: 0;
+}
+
+.jaman {
+    position: relative;
+    top: 8%;
+    color: white;
+}
+
+.blauesding {
+    color: white;
+    transition: 1s;
+}
+
+.blauesding:hover {
+    font-size: 2em;
+    font-weight: 300;
+    color: blue;
+    transition: 1s;
+}
+
+.überschrift-container {
+    position: relative;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.überüberschrift-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.unterschrift-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.unterschrift-container p {
+    margin: 0;
+}
+
+.blauesteil {
+    color: white;
+    transition: 1s;
+}
+
+.blauesteil:hover {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: blue;
+    transition: 1s;
+}
+
+.andersblauesding {
+    color: white;
+    transition: 1s;
+}
+
+.andersblauesding:hover {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: blue;
+    transition: 1s;
+}

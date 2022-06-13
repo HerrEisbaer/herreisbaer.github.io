@@ -1,0 +1,33 @@
+const überschrift = document.getElementsByClassName("überschrift")
+
+for(var i = 0; i < überschrift.length; i++) {
+    (function(index) {
+        überschrift[index].addEventListener("click", function() {
+         weh()
+       })
+    })(i);
+}
+
+document.getElementById("blauesteilzuwerbung").addEventListener('click', () => {
+    weh2()
+})
+
+document.getElementById("blauesteilzubilder").addEventListener('click', () => {
+    weh3()
+})
+
+document.addEventListener('keydown', (event) => {
+    if (event.code === "Space") weh()
+})
+
+function weh() {
+    window.location.href = "clientarea"
+}
+
+function weh2() {
+    window.location.href = "clientarea/werbung"
+}
+
+function weh3() {
+    window.location.href = "clientarea/bilder"
+}
