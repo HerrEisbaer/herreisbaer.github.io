@@ -8,6 +8,16 @@ for(var i = 0; i < überschrift.length; i++) {
     })(i);
 }
 
+const unterschrift = document.getElementsByClassName("klickmich")
+
+for(var i = 0; i < unterschrift.length; i++) {
+    (function(index) {
+        unterschrift[index].addEventListener("click", function() {
+         weh()
+       })
+    })(i);
+}
+
 document.getElementById("blauesteilzuwerbung").addEventListener('click', () => {
     weh2()
 })

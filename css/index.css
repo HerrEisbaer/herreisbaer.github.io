@@ -16,6 +16,11 @@ h1, .jaman {
     opacity: 0.8;
     font-weight: 300;
     margin: 0;
+    cursor: pointer;
+}
+
+p {
+    cursor: pointer;
 }
 
 .jaman {
