@@ -16,7 +16,7 @@ for(var i = 0; i < nav_links.length; i++) {
             event.target.classList.add("nav_links_active")
             aktuellfokus = event.target
             removeall()
-            if (event.target.innerHTML === "Polizei United Island") uipdnewscontainer.classList.remove("removed")
+            if (event.target.innerHTML === "Polizei United Islands") uipdnewscontainer.classList.remove("removed")
             if (event.target.innerHTML === "Fahndung") fahndungcontainer.classList.remove("removed")
             if (event.target.innerHTML === "Presse") pressecontainer.classList.remove("removed")
             if (event.target.innerHTML === "Karriere") karrierecontainer.classList.remove("removed")
